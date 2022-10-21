@@ -1,6 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
+Using the credit card credit dataset from LendingClub, compare oversampling, undersampling, combinatorial, and 2 new machine learning models.
 
 ## Results
 ### Oversampling Algorithms
@@ -74,3 +75,4 @@ Actually False | 985 | 15119
 ![Classification Report](https://github.com/Lindsey-Maag/Credit_Risk_Analysis/blob/main/images/cc.PNG)
 
 ## Summary
+The Easy Ensemble AdaBoost Classifer as the highest balance accuracy score of 93%. However, it still predicted 985 false positives as the precision high-risk value is only 0.09. I would recommend using a different machine learning model to determine credit risk as the above models are not sensitive enough to predict high risk loans with much clarity.
